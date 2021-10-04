@@ -1,2 +1,2 @@
 # AWS-Studies
-The idea is to add the material of workshops
+The idea is to add the material of the mais AWS services 
