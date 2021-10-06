@@ -5,36 +5,51 @@ The idea of this material is to provide real examples from **AWS Services**, usi
 # Links
 
 ## API Gateway
-
-[Workshop 1](http://google.com)  
-[Workshop 2](http://google.com)  
-
+[Tutorial: Building a private REST API](https://docs.aws.amazon.com/apigateway/latest/developerguide/private-api-tutorial.html)  
+[Tutorial: Build a CRUD API with Lambda and DynamoDB](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-dynamo-db.html)  
+[Tutorial: Build a Hello World REST API with Lambda proxy integration](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-create-api-as-simple-proxy-for-lambda.html)  
+[Build an API Gateway REST API with HTTP integration](https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started-http-integrations.html)  
+[Tutorial: Build an API Gateway REST API with AWS integration](https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started-aws-proxy.html)  
+[Tutorial: Create a REST API as an Amazon S3 proxy in API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/integrating-api-with-aws-services-s3.html)  
+    
 
 ## CDK (Cloud Development Kit)
+[CDK Developers Workshop](https://cdkworkshop.com/)  
+[CDK Advanced Workshop](https://cdk-advanced.workshop.aws/)  
+  
 
-[Workshop 1](http://google.com)  
+## CI/CD
+[CI/CD for Serverless Applications](https://cicd.serverlessworkshops.io/)  
 [Workshop 2](http://google.com)  
+  
 
 ## CloudFormation
-
-[Workshop 1](http://google.com)  
-[Workshop 2](http://google.com)  
-
+[CFN 101 Workshop](https://cfn101.workshop.aws/)  
+[AWS CloudFormation Quickstart Workshop](https://workshop.quickstart.awspartner.com/)  
+  
 
 ## DynamoDB
-
-[Workshop 1](http://google.com)  
+[DynamoDB Labs](https://amazon-dynamodb-labs.com/)  
 [Workshop 2](http://google.com)  
+  
 
+## EC2 (Elastic Container Service)
+[Intro to ECS Workshop](https://ecsworkshop.com/introduction/)  
+  
+
+## EC2 (Elastic Computing Cloud)
+[EC2 Spot Instances Workshops](https://ec2spotworkshops.com/)  
+  
 
 ## Lambda
-
-[Workshop 1](http://google.com)  
-[Workshop 2](http://google.com)  
-
+[Run a Serverless "Hello, World!"](https://aws.amazon.com/getting-started/hands-on/run-serverless-code/)  
+[Innovator Island Workshop](https://www.eventbox.dev/published/lesson/innovator-island/)  
+[Peculiar Wizards - Serverless Analytics for Games](https://serverless-game-analytics.workshop.aws/en/)  
+[Introduction: Build a Serverless Web Application](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/)  
+[Generate Content Dynamically with Lambda@Edge](https://content-generation-lambda-edge.workshop.aws/)  
+  
 
 ## S3 (Simple Storage Service)
-
-[Workshop 1](http://google.com)  
-[Workshop 2](http://google.com)  
-
+[Storage Immersion Day](https://storage-on-aws.workshop.aws/)  
+[S3 Game](https://s3game.workshop.aws/)  
+  
