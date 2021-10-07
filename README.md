@@ -42,6 +42,7 @@ The idea of this material is to provide real examples from **AWS Services**, usi
   
 
 ## Lambda
+[AWS Serverless APIs & Apps - A Complete Introduction](https://www.udemy.com/course/aws-serverless-a-complete-introduction/)
 [Run a Serverless "Hello, World!"](https://aws.amazon.com/getting-started/hands-on/run-serverless-code/)  
 [Innovator Island Workshop](https://www.eventbox.dev/published/lesson/innovator-island/)  
 [Peculiar Wizards - Serverless Analytics for Games](https://serverless-game-analytics.workshop.aws/en/)  
