@@ -54,3 +54,8 @@ The idea of this material is to provide real examples from **AWS Services**, usi
 [Storage Immersion Day](https://storage-on-aws.workshop.aws/)  
 [S3 Game](https://s3game.workshop.aws/)  
   
+
+## Certification
+[Exam Readiness: AWS Certified Solutions Architect – Associate](https://www.aws.training/Details/Curriculum?id=64545)  
+[AWS Certified Cloud Practitioner Training 2020 - Full Course](https://www.youtube.com/watch?v=3hLmDS179YE&t=12329s)  
+[AWS Certified Cloud Practitioner 2021 FULL COURSE for Beginners (2019 Course Updated)](https://www.youtube.com/watch?v=SpfO55NPhx8)  
