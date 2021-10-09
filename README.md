@@ -40,6 +40,12 @@ The idea of this material is to provide real examples from **AWS Services**, usi
 ## EC2 (Elastic Computing Cloud)
 [EC2 Spot Instances Workshops](https://ec2spotworkshops.com/)  
   
+  
+  
+## IAM (Identity and Access Management)
+[Introduction to AWS Identity and Access Management (IAM)](https://www.aws.training/Details/Video?id=16448)  
+
+
 
 ## Lambda
 [AWS Serverless APIs & Apps - A Complete Introduction](https://www.udemy.com/course/aws-serverless-a-complete-introduction/)
