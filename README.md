@@ -56,7 +56,7 @@ The idea of this material is to provide real examples from **AWS Services**, usi
 [Generate Content Dynamically with Lambda@Edge](https://content-generation-lambda-edge.workshop.aws/)  
 
 ## Serverless Technology
-[AWS Serverless APIs & Apps - A Complete Introduction](https://www.udemy.com/course/aws-serverless-a-complete-introduction)  
+[AWS Serverless APIs & Apps - A Complete Introduction](https://github.com/fabioono25/AWS-Studies/blob/main/Serverless/AWS%20Serverless%20APIs%20%26%20Apps%20-%20A%20Complete%20Introduction/serverless1.md)  
 
 
 ## S3 (Simple Storage Service)

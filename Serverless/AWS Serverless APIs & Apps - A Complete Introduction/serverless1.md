@@ -8,7 +8,7 @@ API Gateway serves as an entrypoint for the application. It provides way to crea
 
 ### Some Features
 They are some elements presents in the API Gateway service:
-![](http://url/to/api_gateway.png)
+![](https://github.com/fabioono25/AWS-Studies/blob/main/Serverless/AWS%20Serverless%20APIs%20%26%20Apps%20-%20A%20Complete%20Introduction/images/api_gateway1.png)
 
  - **Resources**: they are the paths that will compose part of your endpoint (e.g. https://test.com/compare-yourself).
  - **Methods**: methods are defined under resources and complement the URI with an action of what needs to be done for this endpoint (e.g. GET, POST, DELETE).
@@ -20,13 +20,13 @@ They are some elements presents in the API Gateway service:
 ### Method Execution
 
 When you define a method for a resource, it creates a local where you can configure the characteristics and behavior of this specific method:
-![](http://url/to/api_gateway2.png)
+![](https://github.com/fabioono25/AWS-Studies/blob/main/Serverless/AWS%20Serverless%20APIs%20%26%20Apps%20-%20A%20Complete%20Introduction/images/api_gateway2.png)
 You can visualize and manage each step of execution here:
 
  1. **Client**: it is a representation of the client, where you can test your API, sending parameters or an entire json body, if necessary.
  2. **Method Request**: it works as a *gatekeeper* for your API. Here you can define authorization, add a specific model to validate the required information, define request headers.
  3. **Integration Request**: here is the entry point of integration with external services. They can be from a simple mock, call another HTTP, a different AWS Service or a Lambda Function (as in the example). There is a feature called Mapping Body Templates that it's pretty useful, because you can transform/manipulate the information in way that the Lambda function of this example receives not the entire payload, but just the information it needs (providing the separation of responsibilities between the services involved). Here is an example:
- ![](http://url/to/api_gateway3.png)
+ ![](https://github.com/fabioono25/AWS-Studies/blob/main/Serverless/AWS%20Serverless%20APIs%20%26%20Apps%20-%20A%20Complete%20Introduction/images/api_gateway3.png)
  4. **Lambda**: here is the representation of the external service (in this case,  cy-store-data). Example of the Lambda Function:
 
 ```
@@ -61,4 +61,4 @@ xhr.setRequestHeader('Content-Type', 'application/json');
 xhr.send(JSON.stringify({name: 'John', age: 12}));
 ```
 
-Back to the [index]('https://github.com/fabioono25/AWS-Studies#readme').
+Back to the [index](https://github.com/fabioono25/AWS-Studies#readme).
