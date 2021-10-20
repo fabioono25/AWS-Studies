@@ -54,7 +54,10 @@ The idea of this material is to provide real examples from **AWS Services**, usi
 [Peculiar Wizards - Serverless Analytics for Games](https://serverless-game-analytics.workshop.aws/en/)  
 [Introduction: Build a Serverless Web Application](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/)  
 [Generate Content Dynamically with Lambda@Edge](https://content-generation-lambda-edge.workshop.aws/)  
-  
+
+## Serverless Technology
+[AWS Serverless APIs & Apps - A Complete Introduction](https://www.udemy.com/course/aws-serverless-a-complete-introduction)  
+
 
 ## S3 (Simple Storage Service)
 [Storage Immersion Day](https://storage-on-aws.workshop.aws/)  
