@@ -1,3 +1,4 @@
+
 ## AWS Serverless APIs & Apps - A Complete Introduction
 
 The idea of [this introductory course](https://www.udemy.com/course/aws-serverless-a-complete-introduction) is to provide the fundamental serverless concepts in a hands-on mode, presenting some interesting services, like API Gateway, Lambda Functions, DynamoDB, Cognito. Bellow some of the notes:
@@ -41,6 +42,11 @@ exports.handler = (event, context, callback) => {
     callback(null, event.age * 10);
 };  
 ```
+>A side note about Lambda Functions: a serverless compute service that runs your code in response to events and automatically manages the underlying compute resources for you. It supports different languages (C#, Ruby, Python, Node.js, Java) and integrate with different AWS services.
+The construction above will be similar in all languages. It is composed by three elements:
+> + **event**: contains information about the invoker (who triggered the function and what is the payload).
+> + **context**: which contains information about the invocation, function, and execution environment (e.g. the name of the Lambda function, execution time).
+> + **callback**:  is a function that you can call in [non-async handlers](https://docs.aws.amazon.com/lambda/latest/dg/nodejs-handler.html#nodejs-handler-sync) to send a response (composed by an error and a response).
 
  5. **Integration Response**: based on the pre-defined method response status, it is possible adding the headers (pre-defined as well) and transform/manipulate the response body (same way we did before for integration request). With this approach, we can move out only the needed information.
  6. **Method Response**: in the method response we define a kind of *contract* of what the client can see. Here is the definition of the response status and headers. 
@@ -51,7 +57,7 @@ exports.handler = (event, context, callback) => {
 
 After publishing your API, you can test it via a script, like this example:
 
-```
+```js
 var xhr = new XMLHttpRequest();
 xhr.open('POST', 'https://API_ID.execute-api.API_REGION.amazonaws.com/STAGE/');
 xhr.onreadystatechange = function (event) {
