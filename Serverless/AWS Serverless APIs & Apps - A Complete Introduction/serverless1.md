@@ -29,7 +29,7 @@ You can visualize and manage each step of execution here:
  ![](https://github.com/fabioono25/AWS-Studies/blob/main/Serverless/AWS%20Serverless%20APIs%20%26%20Apps%20-%20A%20Complete%20Introduction/images/api_gateway3.png)
  4. **Lambda**: here is the representation of the external service (in this case,  cy-store-data). Example of the Lambda Function:
 
-```
+```cs
 exports.handler = (event, context, callback) => {
     // asdasd
     
