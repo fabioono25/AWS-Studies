@@ -42,7 +42,7 @@ exports.handler = (event, context, callback) => {
     callback(null, event.age * 10);
 };  
 ```
->A side note about Lambda Functions: a serverless compute service that runs your code in response to events and automatically manages the underlying compute resources for you. It supports different languages (C#, Ruby, Python, Node.js, Java) and integrate with different AWS services.
+>A side note about Lambda function: it is a serverless compute service that runs your code in response to events and automatically manages the underlying compute resources for you. It supports different languages (C#, Ruby, Python, Node.js, Java) and integrate with different AWS services.
 The construction above will be similar in all languages. It is composed by three elements:
 > + **event**: contains information about the invoker (who triggered the function and what is the payload).
 > + **context**: which contains information about the invocation, function, and execution environment (e.g. the name of the Lambda function, execution time).
